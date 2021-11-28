@@ -20,7 +20,10 @@ def words_vowels_consonants():
     word_count = len(user_words.split())
     print(f"Words: {word_count}")
 
-
+    for vowel in user_words:
+        if vowel in vowels:
+            vowels_count += 1
+    print(f"Vowels: {vowels_count}")
 
 words_vowels_consonants()
 
