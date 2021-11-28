@@ -16,7 +16,9 @@ def words_vowels_consonants():
     vowels_count = 0
     consonants_count = 0
 
-
+    # word count
+    word_count = len(user_words.split())
+    print(f"Words: {word_count}")
 
 
 
