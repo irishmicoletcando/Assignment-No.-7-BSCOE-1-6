@@ -11,7 +11,10 @@
 def words_vowels_consonants():
     user_words = input("Enter a word/words: ").lower()
 
-
+    vowels = "aeiou"
+    consonants = "bcdfghjklmnpqrstvwxyz"
+    vowels_count = 0
+    consonants_count = 0
 
 
 
