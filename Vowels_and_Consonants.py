@@ -25,5 +25,11 @@ def words_vowels_consonants():
             vowels_count += 1
     print(f"Vowels: {vowels_count}")
 
+    for consonant in user_words:
+        if consonant in consonants:
+            consonants_count += 1
+    print(f"Consonants: {consonants_count}")
+
+
 words_vowels_consonants()
 
