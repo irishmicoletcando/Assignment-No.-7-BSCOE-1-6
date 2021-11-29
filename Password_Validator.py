@@ -22,7 +22,7 @@ def password_validate():
     print("Your password must have at least one capital letter, one number, one special character, and greater than 15 letters.")
     user_password = input("Enter your password: ")
 
-
+    password_char_count = len(user_password)
 
 
 
