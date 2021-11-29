@@ -31,6 +31,8 @@ def password_validate():
                 uppercase += 1
             if character.isdigit():
                 number += 1
+            if character in special_character:
+                special_character_number += 1
 
 
 
