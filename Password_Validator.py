@@ -29,7 +29,8 @@ def password_validate():
                 lowercase += 1
             if character.isupper():
                 uppercase += 1
-
+            if character.isdigit():
+                number += 1
 
 
 
