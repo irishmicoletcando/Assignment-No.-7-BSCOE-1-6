@@ -12,14 +12,15 @@
 # Tip: loop through each character of the input then process it letter by letter
 
 def password_validate():
-    
+
     lowercase = 0
     uppercase = 0
     number = 0
     special_character_number = 0
     special_character = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
-
+    print("Your password must have at least one capital letter, one number, one special character, and greater than 15 letters.")
+    user_password = input("Enter your password: ")
 
 
 
