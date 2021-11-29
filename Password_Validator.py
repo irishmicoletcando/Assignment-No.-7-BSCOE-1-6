@@ -34,7 +34,11 @@ def password_validate():
             if character in special_character:
                 special_character_number += 1
 
+    if lowercase >= 1 and uppercase >= 1 and number >= 1 and special_character_number >=1 and (lowercase+uppercase+number+special_character_number==password_char_count):
+        print("Valid Password")
 
+    else: 
+        print("Invalid Password")
 
 
 password_validate()
