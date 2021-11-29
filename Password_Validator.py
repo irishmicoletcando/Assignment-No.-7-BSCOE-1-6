@@ -24,11 +24,13 @@ def password_validate():
 
     password_char_count = len(user_password)
     if password_char_count > 15:
+        for character in user_password:
+            if character.islower():
+                lowercase += 1
 
 
 
 
-        
 
 
 password_validate()
