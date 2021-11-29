@@ -27,7 +27,8 @@ def password_validate():
         for character in user_password:
             if character.islower():
                 lowercase += 1
-
+            if character.isupper():
+                uppercase += 1
 
 
 
